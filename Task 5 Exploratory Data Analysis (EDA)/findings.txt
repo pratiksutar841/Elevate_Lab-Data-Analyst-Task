@@ -1,0 +1,32 @@
+Total passengers: 891
+
+Missing values per column:
+PassengerId      0
+Pclass           0
+Name             0
+Sex              0
+Age            173
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          713
+Embarked        15
+Survived         0
+
+Average Age: 30.13
+
+Average Fare: 66.17
+
+Survival rate overall: 30.30%
+
+Survival rate by sex:
+Sex
+female    0.466867
+male      0.205725
+
+Survival rate by Pclass:
+Pclass
+1    0.436681
+2    0.296512
+3    0.242857

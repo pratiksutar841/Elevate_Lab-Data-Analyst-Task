@@ -1,0 +1,35 @@
+INFO:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 12 columns):
+ #   Column       Non-Null Count  Dtype  
+---  ------       --------------  -----  
+ 0   PassengerId  891 non-null    int64  
+ 1   Pclass       891 non-null    int64  
+ 2   Name         891 non-null    object 
+ 3   Sex          891 non-null    object 
+ 4   Age          718 non-null    float64
+ 5   SibSp        891 non-null    int64  
+ 6   Parch        891 non-null    int64  
+ 7   Ticket       891 non-null    object 
+ 8   Fare         891 non-null    float64
+ 9   Cabin        178 non-null    object 
+ 10  Embarked     876 non-null    object 
+ 11  Survived     891 non-null    int64  
+dtypes: float64(2), int64(5), object(5)
+memory usage: 83.7+ KB
+
+
+DESCRIBE:
+        PassengerId      Pclass         Name   Sex         Age       SibSp       Parch  Ticket        Fare Cabin Embarked    Survived
+count    891.000000  891.000000          891   891  718.000000  891.000000  891.000000     891  891.000000   178      876  891.000000
+unique          NaN         NaN          891     2         NaN         NaN         NaN     891         NaN    86        3         NaN
+top             NaN         NaN  Passenger 1  male         NaN         NaN         NaN  T10000         NaN   C60        S         NaN
+freq            NaN         NaN            1   559         NaN         NaN         NaN       1         NaN     6      679         NaN
+mean     446.000000    2.292929          NaN   NaN   30.130641    0.476992    0.399551     NaN   66.173580   NaN      NaN    0.303030
+std      257.353842    0.849683          NaN   NaN   13.652191    0.690447    0.614214     NaN   60.576897   NaN      NaN    0.459826
+min        1.000000    1.000000          NaN   NaN    0.400000    0.000000    0.000000     NaN    5.010000   NaN      NaN    0.000000
+25%      223.500000    1.000000          NaN   NaN   21.000000    0.000000    0.000000     NaN   22.210000   NaN      NaN    0.000000
+50%      446.000000    3.000000          NaN   NaN   29.700000    0.000000    0.000000     NaN   45.600000   NaN      NaN    0.000000
+75%      668.500000    3.000000          NaN   NaN   39.400000    1.000000    1.000000     NaN   88.490000   NaN      NaN    1.000000
+max      891.000000    3.000000          NaN   NaN   73.900000    4.000000    3.000000     NaN  382.990000   NaN      NaN    1.000000
